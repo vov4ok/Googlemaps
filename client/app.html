@@ -1,0 +1,16 @@
+<head>
+	<title>task1</title>
+</head>
+
+<template name="SignIn">
+
+	<div class="conteiner">
+			{{> tHeader}}
+		</div>
+		{{#if currentUser}}
+			{{> tSignIn}}
+		{{else}}
+			{{> tSignOut}}
+		{{/if}}
+
+</template>

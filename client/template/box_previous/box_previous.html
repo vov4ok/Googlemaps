@@ -1,0 +1,16 @@
+<template name="boxPrevious">
+	<table class="div-previous-queries-item">
+	{{#each fousquarequery}}
+		<tr>
+			<td class="previous-queries-icon">✖</td>
+			<td class="previous-queries-name">{{query}}</td>
+			<td class="previous-queries-latitude">{{lat}}</td>
+			<td class="previous-queries-longitude">{{lng}}</td>
+			<td class="previous-queries-radius">{{radius}}</td>
+			<td class="previous-queries-date">{{date}}</td>
+			<td class="previous-queries-id" hidden>{{_id}}</td>
+		</tr>
+		{{/each}}
+	</table>
+
+</template>

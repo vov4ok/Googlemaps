@@ -1,0 +1,41 @@
+.div-previous-queries-item {
+text-align: center;
+}
+
+.previous-queries-icon {
+	width: 14px;
+}
+.previous-queries-name,
+.previous-queries-latitude,
+.previous-queries-longitude {
+	width: 21%
+}
+
+.previous-queries-radius,
+.previous-queries-date{
+	width: 15%;
+}
+
+.previous-queries-icon,
+.previous-queries-name,
+.previous-queries-latitude,
+.previous-queries-longitude,
+.previous-queries-radius,
+.previous-queries-date {
+	display: inline-block;
+	text-align: center;
+	font-weight: 900;
+	overflow: auto;
+}
+
+.div-previous-queries-item > tr:hover {
+	background: rgb(100,100,100);
+	color: rgb(255,255,255);
+	cursor: pointer;
+}
+
+.previous-queries-id {
+	width: 0px;
+	height: 0px;
+	font-size: 1px;
+}

@@ -1,0 +1,49 @@
+#count-search-result {
+	margin: 5px;
+	width: 20%;
+	text-align: center;
+	float: left;
+	color: #red;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#button-export-csv {
+	margin: 5px;
+	width: 20%;
+	text-align: center;
+	float: right;
+
+}
+
+#button-export-csv:after {
+	clear: both;
+	content: ',';
+	font: 1px Serif;
+	height: 0;
+	display: block;
+	visibility: hidden;
+}
+
+
+table {
+	width: 100%;
+	text-align: center;
+	border-spacing: 0;
+}
+
+.result-name, .result-city, .result-addres, .result-lat, .result-lng {
+	width: 20%;
+}
+
+.resultTr {
+	width: 20%;
+	border: 1px solid red;
+}
+
+
+.resultTr:hover {
+	background: rgb(100,100,100);
+	color: rgb(255,255,255);
+	cursor: pointer;
+}

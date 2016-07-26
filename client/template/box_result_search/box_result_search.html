@@ -1,0 +1,27 @@
+<template name="resultSearch">
+	{{#with countQuerys}}
+	<div id="count-search-result">{{this}}</div>
+	{{/with}}
+	<div id="button-export-csv">{{> bExportCsv}}</div>
+
+<table>
+			<tr>
+				<th class="result-name">Name</th>
+				<th class="result-city">City</th>
+				<th class="result-addres">Streat Addres</th>
+				<th class="result-lat">Lotityde</th>
+				<th class="result-lng">Longityde</th>
+			</tr>
+			{{#each markerss}}
+			<tr class="resultTr">
+				<td class="result-name">{{name}}</td>
+				<td class="result-city">{{city}}</td>
+				<td class="result-addres">{{address}}</td>
+				<td class="result-lat">{{lat}}</td>
+				<td class="result-lng">{{lng}}</td>
+			</tr>
+			{{/each}}
+	</table>
+
+
+</template>
